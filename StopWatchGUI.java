@@ -49,8 +49,7 @@ public class StopWatchGUI extends JFrame {
         setResizable(false);
         setSize(500, 300);
         setTitle("TechAndCrack StopWatch");
-        setLocation(s.width / 2 - getWidth() / 2, s.height / 2 - getHeight()
-                / 2);
+        setLocation(s.width / 2 - getWidth() / 2, s.height / 2 - getHeight() / 2);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
   

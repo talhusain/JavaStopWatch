@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
  
 public class StopWatchTimer implements Runnable {
   
-    private StopWatchTimer swGui;
+    private StopWatchGUI swGui;
     private long starttime = 0;
     private long endtime = 0;
     private boolean isrunning = false;
@@ -17,7 +17,7 @@ public class StopWatchTimer implements Runnable {
      // access the StopWatchGUI class in order to set the text of a label to the
      // correct time.
  
-    public StopWatchTimer( StopWatchTimer sw ) {
+    public StopWatchTimer( StopWatchGUI sw ) {
         this.swGui = sw;
     }
   
